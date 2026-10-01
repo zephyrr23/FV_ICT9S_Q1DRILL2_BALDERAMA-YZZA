@@ -1,0 +1,74 @@
+<!DOCTYPE HTML html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <div class="title-banner">
+        <title>Q1 Drill 2</title>
+    </div>
+</head>
+<body>
+    <header>
+     <h1>RATE A MOVIE</h1>
+    <p class="subtitle">Share your favorite movie and write a review!</p>
+
+    <div class="form-container">
+        <img style="display: block; height: 100px; width: 100px; margin: 0 auto; " src="" alt="logo">
+         <img src="" alt="logo">
+        <img class="movie-icon" src="https://cdn-icons-png.flaticon.com/512/2798/2798007.png" alt="Movie Icon">
+
+        <form action="#" method="POST">
+
+            <div class="section-group">
+                <input type="text" class="text-input" placeholder="Movie Title" required>
+            </div>
+
+            <div class="section-group">
+                <div class="section-title">Genres (select all that apply):</div>
+                <div class="checkbox-group">
+                    <label><input type="checkbox" name="genre" value="action"> Action</label>
+                    <label><input type="checkbox" name="genre" value="comedy"> Comedy</label>
+                    <label><input type="checkbox" name="genre" value="drama"> Drama</label>
+                    <label><input type="checkbox" name="genre" value="fantasy"> Fantasy</label>
+                    <label><input type="checkbox" name="genre" value="sci-fi"> Sci-Fi</label>
+                    <label><input type="checkbox" name="genre" value="sci-fi"> Horror</label>
+                </div>
+            </div>
+
+            <div class="section-group">
+                <div class="section-title">Rating:</div>
+                <div class="radio-group">
+                    <!-- Note: Lines 37-43 are partially hidden in the screenshots -->
+                    <input type="radio" id="rate2" name="rate" value="2">
+                    <label for="rate2">⭐⭐</label>
+
+                    <br>
+                    <input type="radio" id="rate3" name="rate" value="3">
+                    <label for="rate3">⭐⭐⭐</label>
+
+                    <br>
+                    <input type="radio" id="rate4" name="rate" value="4">
+                    <label for="rate4">⭐⭐⭐⭐</label>
+
+                    <br>
+                    <input type="radio" id="rate5" name="rate" value="5">
+                    <label for="rate5">⭐⭐⭐⭐⭐</label>
+                </div>
+            </div>
+
+            <br>
+            <div class="section-group">
+                <textarea id="review" placeholder="Write your review..." rows="4" cols="40"></textarea>
+            </div>
+
+            <button type="submit" class="submit-btn" style="letter-spacing: 1px;">Submit Review</button>
+
+        </form>
+        <div class="footer-link">
+            Movie Review Tips: Click <a href="https://" target="_blank">https://www.nyfa.edu/student-resources/9-tips-for-writing-a-film-review/</a>
+        </div>
+
+    </div>
+
+</body>
+</html>
